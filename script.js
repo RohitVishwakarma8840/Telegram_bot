@@ -38,7 +38,7 @@ bot.command('whomadethis',(ctx) => ctx.reply("rohit "));
 bot.on('sticker',(ctx)=>ctx.reply('❤️'));
 
 bot.command('binarytreejs', async function(ctx){
-    const response = await axios.get('https://raw.githubusercontent.com/singhsanket143/FrontendDSA/master/Aug_29/trees.js');
+    const response = await axios.get('your prefered source ');
     return ctx.reply(response.data);
 })
 
